@@ -1,0 +1,17 @@
+.container{
+    color: white;
+    border: 5px solid gold;
+    display: inline-flex;
+    flex-direction: column;
+}
+.red{background-color: red;}
+.orange{background-color: orange;}
+.yellow{background-color: yellow;}
+.green{background-color: green;}
+.blue{background-color: blue;}
+.indigo{background-color: #30336b;}
+.purple{background-color: purple;}
+
+.container > *{
+    flex-basis: 100px;
+}
